@@ -1,0 +1,39 @@
+@media(max-width:1180px) {
+	.navigation, .social-ul, .container6 {
+		display: none !important;
+	}
+
+	.container3 {
+		flex-wrap: wrap;
+	}
+
+	.w-s-5 {
+		flex-grow: 5;
+	}
+
+	.w-s-10 {
+		flex-grow: 10;
+	}
+
+	.box3 {
+		margin-left: 100px;
+	}
+
+	.box3>.image {
+		margin: 0;
+	}
+
+	.text-container {
+		margin-left: 100px;
+	}
+
+	.photo-box {
+		width: 42%;
+	}
+
+	.mini-container {
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+
+}
